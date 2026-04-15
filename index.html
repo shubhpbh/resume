@@ -5,14 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Tiwari · PHP Developer</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.vectorstock.com/i/500p/91/54/initial-letter-s-monogram-hexagon-logo-vector-40639154.avif">
+
+    <!-- Basic SEO -->
+    <meta name="title" content="Shubham Tiwari | PHP Developer Portfolio">
+    <meta name="description" content="Shubham Tiwari - Experienced PHP Developer with 2.6+ years in Laravel, CodeIgniter, MySQL. Delivered 100+ projects including CRM, travel, healthcare & education platforms.">
+    <meta name="keywords" content="PHP Developer, Laravel Developer, CodeIgniter Developer, MySQL, Web Developer India, Backend Developer, Full Stack Developer">
+    <meta name="author" content="Shubham Tiwari">
+    <meta name="robots" content="index, follow"> 
+
+
+
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shubham Tiwari | PHP Developer">
+    <meta property="og:description" content="2.6+ years experienced PHP Developer skilled in Laravel, CodeIgniter & MySQL. Delivered 100+ projects across multiple domains.">
+    <meta property="og:image" content="https://cdn.vectorstock.com/i/500p/91/54/initial-letter-s-monogram-hexagon-logo-vector-40639154.avif">
+    <meta property="og:url" content="https://shubhpbh.github.io/resume/">
+    <meta property="og:site_name" content="Shubham Portfolio"> 
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shubham Tiwari | PHP Developer">
+    <meta name="twitter:description" content="PHP Developer with 100+ projects experience. Laravel, CodeIgniter, MySQL specialist.">
+    <meta name="twitter:image" content="https://cdn.vectorstock.com/i/500p/91/54/initial-letter-s-monogram-hexagon-logo-vector-40639154.avif">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://shubhpbh.github.io/resume/">
+
+
     <!-- Bootstrap 5 + Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Google Fonts: modern & rich -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- AOS Animation CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Fancybox CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
@@ -102,7 +128,6 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            animation: fadeInDown 0.8s ease-out;
         }
 
         .contact-pill {
@@ -231,10 +256,6 @@
             display: flex;
             justify-content: center;
             align-items: baseline;
-        }
-
-        .counter-value {
-            /* the number itself */
         }
 
         .counter-suffix {
@@ -447,38 +468,14 @@
                 flex-direction: column !important;
             }
         }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInPro {
-            from {
-                opacity: 0;
-                transform: scale(0.95);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
     </style>
 </head>
 
 <body>
-    <div class="resume-card" data-aos="zoom-in" data-aos-duration="800">
+    <div class="resume-card">
         <!-- HEADER: Name, title, contact -->
         <div class="d-flex flex-wrap align-items-start justify-content-between mb-4">
-            <div class="header-info-container" data-aos="fade-right" data-aos-delay="100">
+            <div class="header-info-container">
                 <div class="d-flex align-items-center flex-wrap gap-2 mb-2 header-info-container">
                     <h1 class="name-title mb-0">Shubham Tiwari</h1>
                     <span class="badge bg-success bg-gradient rounded-pill px-3 py-2 shadow-sm border border-light"
@@ -511,7 +508,7 @@
                     <span class="skill-tag" style="padding: 0.2rem 0.8rem; font-size: 0.75rem; margin: 0;">Delhi</span>
                 </div>
             </div>
-            <div class="d-flex flex-column gap-2 mt-3 mt-lg-0 w-100-sm" data-aos="fade-left" data-aos-delay="200">
+            <div class="d-flex flex-column gap-2 mt-3 mt-lg-0 w-100-sm">
                 <div class="d-flex flex-column gap-2 header-info-container">
                     <a href="mailto:shubham11pbh@gmail.com" class="contact-pill text-decoration-none"><i
                             class="bi bi-envelope-fill"></i> shubham11pbh@gmail.com</a>
@@ -523,7 +520,7 @@
         </div>
 
         <!-- Professional summary line (rich) -->
-        <div class="achievement-highlight mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="achievement-highlight mb-4">
             <i class="bi bi-stars me-2"></i> Results-driven Software Developer with 2.6+ years of progressive
             professional experience architecting, developing, and deploying robust applications. Proficient in
             full-stack web technologies including HTML5, CSS3, JavaScript, and advanced PHP frameworks such as Laravel
@@ -535,17 +532,15 @@
             environments.
         </div>
 
-        <!-- STATS COUNTER MOVED TO BOTTOM OF LEFT COLUMN -->
-
         <!-- Two columns: left (main) / right (skills + education) -->
         <div class="row g-4">
             <!-- LEFT COLUMN: Experience & Projects & Achievements -->
             <div class="col-lg-8">
                 <!-- EXPERIENCE -->
-                <div class="section-title" data-aos="fade-right">
+                <div class="section-title">
                     <i class="bi bi-briefcase-fill"></i> Professional Experience
                 </div>
-                <div class="exp-item" data-aos="fade-up">
+                <div class="exp-item">
                     <div class="exp-header">
                         <div><span class="exp-company">Duplex Technologies Pvt Ltd Lucknow</span> <span
                                 class="exp-role mx-2">·
@@ -575,7 +570,7 @@
                 </div>
 
                 <!-- PROFESSIONAL ACHIEVEMENTS (compact) -->
-                <div class="mt-3 mb-4" data-aos="fade-up">
+                <div class="mt-3 mb-4">
                     <div class="d-flex align-items-center gap-2 mb-2">
                         <i class="bi bi-trophy-fill" style="color:#e6b800;"></i>
                         <span style="font-weight: 700; color:#1e3a5f;">Key Achievements</span>
@@ -609,11 +604,11 @@
                 </div>
 
                 <!-- PROJECTS (showcase) with TABS -->
-                <div class="section-title mt-3" data-aos="fade-right">
+                <div class="section-title mt-3">
                     <i class="bi bi-window-stack"></i> Featured Projects
                 </div>
 
-                <div class="filter-tabs" data-aos="fade-up">
+                <div class="filter-tabs">
                     <div class="filter-tab active" data-filter="all">All Projects</div>
                     <div class="filter-tab" data-filter="travel">Cab & Travel</div>
                     <div class="filter-tab" data-filter="education">Education</div>
@@ -621,134 +616,130 @@
                     <div class="filter-tab" data-filter="other">Corporate/Other</div>
                 </div>
 
-                <!-- GLightbox requires href to target of image/video to open it. We use a placeholder image for the lightbox popup -->
-                <div class="project-grid" id="project-container" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-grid" id="project-container">
 
-
-                    <a href="#" class="project-card glightbox" data-category="travel" data-title="CabTrip Travels"
+                    <a href="#" class="project-card" data-category="travel" data-title="CabTrip Travels"
                         data-link="https://cabtriptravel.com"
                         data-description="Developed a complete cab booking website enabling users to easily search, book, and manage rides online. The platform focuses on smooth navigation, structured booking flow, and reliable service presentation for enhanced user experience."
                         data-images="images/cabtrip/cabtrip-1.png,images/cabtrip/cabtrip-2.png,images/cabtrip/cabtrip-3.png,images/cabtrip/cabtrip-4.png">
-
                         <i class="bi bi-taxi-front"></i> CabTrip Travel
                     </a>
 
-
-                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=ZomoCook" class="project-card glightbox"
+                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=ZomoCook" class="project-card"
                         data-category="other" data-title="ZomoCook" data-link="https://zomocook.com"
                         data-description="Built a job portal connecting cooks and employers, allowing users to post jobs, search opportunities, and filter listings efficiently through a clean and intuitive interface.">
                         <i class="bi bi-egg-fried"></i> ZomoCook
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Kutumb+Services"
-                        class="project-card glightbox" data-category="other" data-title="Kutumb Services"
+                        class="project-card" data-category="other" data-title="Kutumb Services"
                         data-link="https://kutumbservices.com"
                         data-description="Created a service-based platform for elderly care, offering categorized service listings, booking functionality, and a user-friendly system for managing service requests.">
                         <i class="bi bi-people"></i> Kutumb Services
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=KTS+Cabs+CRM"
-                        class="project-card glightbox" data-category="travel" data-title="KTS Cabs CRM" data-link="#"
+                        class="project-card" data-category="travel" data-title="KTS Cabs CRM" data-link="#"
                         data-description="Designed and developed a custom CRM system to streamline cab operations, including booking management, driver coordination, and centralized reporting for better decision-making.">
                         <i class="bi bi-diagram-3"></i> KTS Cabs CRM
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Amber+Cabs+CRM"
-                        class="project-card glightbox" data-category="travel" data-title="Amber Cabs CRM" data-link="#"
+                        class="project-card" data-category="travel" data-title="Amber Cabs CRM" data-link="#"
                         data-description="Built a scalable CRM platform focused on fleet and customer management, improving booking workflows and providing efficient operational control for cab services.">
                         <i class="bi bi-car-front"></i> Amber Cabs CRM
                     </a>
-                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=OnGo+Rides" class="project-card glightbox"
+                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=OnGo+Rides" class="project-card"
                         data-category="travel" data-title="OnGo Rides" data-link="https://ongorides.com"
                         data-description="Developed a travel booking website with dynamic modules, allowing users to explore services and complete bookings through a responsive and user-friendly interface.">
                         <i class="bi bi-geo-alt"></i> OnGo Rides
                     </a>
-                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Shivay+Taxi" class="project-card glightbox"
+                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Shivay+Taxi" class="project-card"
                         data-category="travel" data-title="Shivay Taxi" data-link="https://shivaytaxi.in"
                         data-description="Created a responsive cab booking website with a simplified booking process, optimized for both desktop and mobile users to ensure seamless accessibility.">
                         <i class="bi bi-car-front-fill"></i> Shivay Taxi
                     </a>
-                    <a href="#" class="project-card glightbox" data-category="travel" data-title="Gangotri Travels"
+                    <a href="#" class="project-card" data-category="travel" data-title="Gangotri Travels"
                         data-link="https://gangotritravels.com"
                         data-description="Developed a travel website showcasing tour packages with a structured inquiry system, helping generate leads and improve customer engagement."
                         data-images="https://www.gangotritravels.com/public/attachments/20250111153523886.webp,https://www.gangotritravels.com/public/attachments/20250111145630770.webp,https://www.gangotritravels.com/public/attachments/20250220112005615.webp,https://www.gangotritravels.com/public/attachments/20241227184125470.webp">
                         <i class="bi bi-suitcase-lg"></i> Gangotri Travels
                     </a>
-                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Subway+Cabs" class="project-card glightbox"
+                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Subway+Cabs" class="project-card"
                         data-category="travel" data-title="Subway Cabs" data-link="https://subwaycabs.com"
                         data-description="Built a service-oriented cab booking website with a clean layout and intuitive navigation, making it easy for users to access and book services.">
                         <i class="bi bi-train-front"></i> Subway Cabs
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Divine+Beauty+Lounge"
-                        class="project-card glightbox" data-category="other" data-title="Divine Beauty Lounge"
+                        class="project-card" data-category="other" data-title="Divine Beauty Lounge"
                         data-link="https://divinebeautylounge.com.au"
                         data-description="Designed a salon website highlighting services, pricing, and appointment information with an elegant and engaging user interface.">
                         <i class="bi bi-scissors"></i> Divine Beauty Lounge
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Orbit+Roots+Tech"
-                        class="project-card glightbox" data-category="other" data-title="Orbit Roots Tech"
+                        class="project-card" data-category="other" data-title="Orbit Roots Tech"
                         data-link="https://orbitroots.com.au"
                         data-description="Developed a corporate website to present technology services, focusing on modern UI design, clear content structure, and strong brand presence.">
                         <i class="bi bi-laptop"></i> Orbit Roots Tech
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Rathi+Hospitals"
-                        class="project-card glightbox" data-category="healthcare" data-title="Rathi Hospitals"
+                        class="project-card" data-category="healthcare" data-title="Rathi Hospitals"
                         data-link="https://rathihospitals.com"
                         data-description="Built a healthcare website providing detailed information about doctors, services, and facilities, along with a patient inquiry system for easy communication.">
                         <i class="bi bi-hospital"></i> Rathi Hospitals
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Nourish+With+Neha"
-                        class="project-card glightbox" data-category="healthcare" data-title="Nourish With Neha"
+                        class="project-card" data-category="healthcare" data-title="Nourish With Neha"
                         data-link="https://nourishwithneha.in"
                         data-description="Created a fitness website showcasing programs and services, designed to improve user engagement and provide clear information to potential clients.">
                         <i class="bi bi-heart-pulse"></i> Nourish With Neha
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=CA+Arpit+Gupta"
-                        class="project-card glightbox" data-category="other" data-title="CA Arpit Gupta"
+                        class="project-card" data-category="other" data-title="CA Arpit Gupta"
                         data-link="https://caarpitgupta.com"
                         data-description="Developed a professional portfolio website presenting services, expertise, and contact details to enhance client reach and credibility.">
                         <i class="bi bi-calculator"></i> CA Arpit Gupta
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Kisan+PG+College+Raksa"
-                        class="project-card glightbox" data-category="education" data-title="Kisan PG College Raksa"
+                        class="project-card" data-category="education" data-title="Kisan PG College Raksa"
                         data-link="https://kisanpgcollegeraksa.ac.in"
                         data-description="Built an educational website with structured academic content, admission details, and institutional information for students and visitors.">
                         <i class="bi bi-building"></i> Kisan PG College Raksa
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=SDDT+PG+College"
-                        class="project-card glightbox" data-category="education" data-title="SDDT PG College"
+                        class="project-card" data-category="education" data-title="SDDT PG College"
                         data-link="https://sddtpgcollege.edu.in"
                         data-description="Developed a college portal with organized academic data, notices, and course details, ensuring easy access to information for students.">
                         <i class="bi bi-mortarboard"></i> SDDT PG College
                     </a>
-                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=ACE+UG" class="project-card glightbox"
+                    <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=ACE+UG" class="project-card"
                         data-category="education" data-title="ACE UG" data-link="https://aceug.in"
                         data-description="Created a modern education platform focusing on course offerings and user experience, providing clear navigation and structured content.">
                         <i class="bi bi-book"></i> ACE UG
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=The+Pillars+Public+School"
-                        class="project-card glightbox" data-category="education" data-title="The Pillars Public School"
+                        class="project-card" data-category="education" data-title="The Pillars Public School"
                         data-link="https://thepillarspublicschool.in"
                         data-description="Designed a school website delivering essential information for students and parents with a clean layout and easy content accessibility.">
                         <i class="bi bi-backpack"></i> The Pillars Public School
                     </a>
                     <a href="https://placehold.co/800x500/1b3a7a/ffffff?text=Align+Solutions"
-                        class="project-card glightbox" data-category="other" data-title="Align Solutions"
+                        class="project-card" data-category="other" data-title="Align Solutions"
                         data-link="https://alignsolutions.in"
                         data-description="Developed a branding agency website showcasing services and portfolio, emphasizing modern design and a strong digital presence.">
                         <i class="bi bi-brush"></i> Align Solutions
                     </a>
                 </div>
-                <div class="mt-3 text-muted small fst-italic" data-aos="fade-in" data-aos-delay="200">
+                <div class="mt-3 text-muted small fst-italic">
                     <i class="bi bi-info-circle"></i> Click any project above to view details. 19+ live projects
                     delivered seamlessly.
                 </div>
 
                 <!-- STATS COUNTER GRID (Small styling) -->
-                <div class="counter-section row g-2 mt-4 mb-2" data-aos="fade-up" data-aos-delay="300">
+                <div class="counter-section row g-2 mt-4 mb-2">
                     <div class="col-6 col-md-3">
                         <div class="counter-box p-3">
                             <div class="counter-icon" style="font-size: 1.5rem; margin-bottom: 0.2rem;"><i
                                     class="bi bi-rocket-takeoff-fill"></i></div>
                             <div class="counter-value-container" style="font-size: 1.6rem; margin-bottom: 0;">
-                                <span class="counter-value" data-target="100" data-decimals="0">0</span>
+                                <span class="counter-value" data-target="100" data-decimals="0">100</span>
                                 <span class="counter-suffix" style="font-size: 1rem;">+</span>
                             </div>
                             <div class="counter-label" style="font-size: 0.65rem;">Projects</div>
@@ -759,7 +750,7 @@
                             <div class="counter-icon" style="font-size: 1.5rem; margin-bottom: 0.2rem;"><i
                                     class="bi bi-emoji-smile-fill"></i></div>
                             <div class="counter-value-container" style="font-size: 1.6rem; margin-bottom: 0;">
-                                <span class="counter-value" data-target="90" data-decimals="0">0</span>
+                                <span class="counter-value" data-target="90" data-decimals="0">90</span>
                                 <span class="counter-suffix" style="font-size: 1rem;">+</span>
                             </div>
                             <div class="counter-label" style="font-size: 0.65rem;">Clients</div>
@@ -770,7 +761,7 @@
                             <div class="counter-icon" style="font-size: 1.5rem; margin-bottom: 0.2rem;"><i
                                     class="bi bi-briefcase-fill"></i></div>
                             <div class="counter-value-container" style="font-size: 1.6rem; margin-bottom: 0;">
-                                <span class="counter-value" data-target="2.6" data-decimals="1">0</span>
+                                <span class="counter-value" data-target="2.6" data-decimals="1">2.6</span>
                                 <span class="counter-suffix" style="font-size: 1rem;">+</span>
                             </div>
                             <div class="counter-label" style="font-size: 0.65rem;">Years Exp</div>
@@ -781,7 +772,7 @@
                             <div class="counter-icon" style="font-size: 1.5rem; margin-bottom: 0.2rem;"><i
                                     class="bi bi-plug-fill"></i></div>
                             <div class="counter-value-container" style="font-size: 1.6rem; margin-bottom: 0;">
-                                <span class="counter-value" data-target="15" data-decimals="0">0</span>
+                                <span class="counter-value" data-target="15" data-decimals="0">15</span>
                                 <span class="counter-suffix" style="font-size: 1rem;">+</span>
                             </div>
                             <div class="counter-label" style="font-size: 0.65rem;">APIs</div>
@@ -793,10 +784,10 @@
             <!-- RIGHT COLUMN: Tech skills, Education, Tools -->
             <div class="col-lg-4">
                 <!-- TECHNICAL SKILLS (rich, categorized) -->
-                <div class="section-title" data-aos="fade-left">
+                <div class="section-title">
                     <i class="bi bi-cpu"></i> Tech Stack
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="100">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i
                             class="bi bi-code-square me-1"></i>Programming Languages</div>
                     <div>
@@ -807,7 +798,7 @@
                         <span class="skill-tag">jQuery</span>
                     </div>
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="150">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i class="bi bi-layers me-1"></i>Frameworks
                     </div>
                     <div>
@@ -815,7 +806,7 @@
                         <span class="skill-tag">Laravel (Auth, Middleware, Eloquent, Blade, REST APIs)</span>
                     </div>
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="200">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i class="bi bi-palette me-1"></i>Frontend
                         Technologies</div>
                     <div>
@@ -825,7 +816,7 @@
                         <span class="skill-tag">UI Optimization</span>
                     </div>
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="250">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i class="bi bi-database me-1"></i>Backend &
                         Database</div>
                     <div>
@@ -835,7 +826,7 @@
                         <span class="skill-tag">XML</span>
                     </div>
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="300">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i class="bi bi-git me-1"></i>Version Control
                     </div>
                     <div>
@@ -843,7 +834,7 @@
                         <span class="skill-tag">GitHub</span>
                     </div>
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="350">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i class="bi bi-wrench me-1"></i>Development
                         Tools</div>
                     <div>
@@ -852,7 +843,7 @@
                         <span class="skill-tag">Composer</span>
                     </div>
                 </div>
-                <div class="mb-3" data-aos="fade-left" data-aos-delay="400">
+                <div class="mb-3">
                     <div class="fw-semibold mb-1" style="color:#1b3a7a;"><i class="bi bi-plug me-1"></i>Additional
                         Skills</div>
                     <div>
@@ -863,24 +854,24 @@
                 </div>
 
                 <!-- Education -->
-                <div class="section-title mt-4" data-aos="fade-left">
+                <div class="section-title mt-4">
                     <i class="bi bi-mortarboard-fill"></i> Education
                 </div>
-                <div class="edu-block mb-3" data-aos="fade-up">
+                <div class="edu-block mb-3">
                     <div class="fw-bold text-dark">Diploma in Computer Science & Engineering</div>
                     <div class="text-secondary small">Govt Polytechnic Premdhar Patti, Pratapgarh</div>
                     <div class="d-flex justify-content-between mt-1"><span class="badge bg-light text-dark border">BTEUP
                             Board</span><span class="fw-bold text-primary">72.93%</span></div>
                     <small class="text-muted mt-2 d-block"><i class="bi bi-calendar"></i> Graduated: 2023</small>
                 </div>
-                <div class="edu-block mb-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="edu-block mb-3">
                     <div class="fw-bold text-dark">Intermediate (Class XII)</div>
                     <div class="text-secondary small">K. R. Inter College, Pratapgarh</div>
                     <div class="d-flex justify-content-between mt-1"><span class="badge bg-light text-dark border">UP
                             Board</span><span class="fw-bold text-primary">66.6%</span></div>
                     <small class="text-muted mt-2 d-block"><i class="bi bi-calendar"></i> 2020</small>
                 </div>
-                <div class="edu-block" data-aos="fade-up" data-aos-delay="200">
+                <div class="edu-block">
                     <div class="fw-bold text-dark">High School (Class X)</div>
                     <div class="text-secondary small">K. R. Inter College, Pratapgarh</div>
                     <div class="d-flex justify-content-between mt-1"><span class="badge bg-light text-dark border">UP
@@ -889,7 +880,7 @@
                 </div>
 
                 <!-- Soft Skills + extra -->
-                <div class="mt-4" data-aos="zoom-in">
+                <div class="mt-4">
                     <div class="fw-semibold mb-2" style="color:#1b3a7a;"><i class="bi bi-chat-heart me-1"></i>Soft
                         Skills</div>
                     <div>
@@ -900,7 +891,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="d-flex align-items-center gap-2 small flex-wrap" data-aos="fade-in">
+                <div class="d-flex align-items-center gap-2 small flex-wrap">
                     <i class="bi bi-braces text-primary"></i> <span>OOP Design Patterns & SOLID Principles</span>
                     <span class="ms-auto"><i class="bi bi-shield-check text-success"></i> Agile & Clean Code
                         Advocate</span>
@@ -910,7 +901,7 @@
 
         <!-- Footer note: project count / highlight -->
         <hr>
-        <div class="d-flex flex-wrap justify-content-between align-items-center" data-aos="fade-up">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
             <div>
                 <i class="bi bi-link-45deg"></i> <strong>Industry Expertise:</strong> Travel Ecosystems, CRM Platforms,
                 EdTech, Healthcare, B2B/B2C Portals.
@@ -920,7 +911,7 @@
                     Delivered · Full-Stack Capable</span>
             </div>
         </div>
-        <div class="mt-3 text-muted small text-center" data-aos="fade-in" data-aos-delay="200">
+        <div class="mt-3 text-muted small text-center">
             ✦ Open to Software Development Opportunities · Complete Portfolio & References available upon request ✦
         </div>
     </div>
@@ -958,63 +949,12 @@
 
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- AOS Animation JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Fancybox JS -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
     <script>
-        // Initialize Animations
-        AOS.init({
-            once: true, // whether animation should happen only once - while scrolling down
-            offset: 30, // offset (in px) from the original trigger point
-            duration: 600,
-        });
-
-
-
-        // Counter Animation Algorithm
-        const runCounters = () => {
-            const counters = document.querySelectorAll('.counter-value');
-            const duration = 2000; // Total duration in ms
-
-            counters.forEach(counter => {
-                const target = parseFloat(counter.getAttribute('data-target'));
-                const decimals = parseInt(counter.getAttribute('data-decimals') || 0);
-                let startTime = null;
-
-                const increment = (timestamp) => {
-                    if (!startTime) startTime = timestamp;
-                    const progress = Math.min((timestamp - startTime) / duration, 1);
-
-                    // Ease out quad
-                    const easeProgress = progress * (2 - progress);
-                    const currentVal = easeProgress * target;
-
-                    if (decimals > 0) {
-                        counter.innerText = currentVal.toFixed(decimals);
-                    } else {
-                        counter.innerText = Math.floor(currentVal);
-                    }
-
-                    if (progress < 1) {
-                        window.requestAnimationFrame(increment);
-                    } else {
-                        counter.innerText = target.toFixed(decimals);
-                    }
-                };
-
-                // Only start when in viewport
-                const observer = new IntersectionObserver(entries => {
-                    if (entries[0].isIntersecting) {
-                        window.requestAnimationFrame(increment);
-                        observer.disconnect();
-                    }
-                }, { threshold: 0.5 });
-
-                observer.observe(counter);
-            });
-        };
+        // Remove animations completely. AOS and counter increment animations are removed.
+        // Counters are set to static final values directly in HTML.
 
         // Tab Filtering Logic
         const initTabs = () => {
@@ -1032,10 +972,6 @@
                     projects.forEach(project => {
                         if (filter === 'all' || project.getAttribute('data-category') === filter) {
                             project.style.display = 'block';
-                            project.style.animation = 'none';
-                            // trigger reflow to restart animation
-                            project.offsetHeight;
-                            project.style.animation = 'fadeInPro 0.5s ease-out forwards';
                         } else {
                             project.style.display = 'none';
                         }
@@ -1054,7 +990,6 @@
 
             projects.forEach(project => {
                 // Setup bootstrap modal attributes natively via JS
-                project.classList.remove('glightbox');
                 project.setAttribute('data-bs-toggle', 'modal');
                 project.setAttribute('data-bs-target', '#projectModal');
 
@@ -1125,7 +1060,6 @@
 
         // Execute scripts once DOM is loaded
         document.addEventListener("DOMContentLoaded", () => {
-            runCounters();
             initTabs();
             initProjectModal();
         });
